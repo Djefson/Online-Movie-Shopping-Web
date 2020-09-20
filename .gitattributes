@@ -1,10 +1,10 @@
-*.MVC5 linguist-detectable=false
-*..Net linguist-detectable=false
+*.MVC5 linguist-detectable=true
+*.Net linguist-detectable=false
 *.html linguist-detectable=false
 *.xml linguist-detectable=false
 *.HTML5 linguist-detectable=false
 *.CSS linguist-detectable=false
 *.Bootstrap linguist-detectable=false
 *.ASP.NET linguist-detectable=false
-*.C# linguist-detectable=true
+
 
