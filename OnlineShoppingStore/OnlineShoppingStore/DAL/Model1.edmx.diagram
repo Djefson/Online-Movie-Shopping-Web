@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0d6314837b024a129d5ded7ac2e6eb69" Name="Diagram1">
+        <EntityTypeShape EntityType="dbMyOnlineShoppingModel.Tbl_Cart" Width="1.5" PointX="5.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbMyOnlineShoppingModel.Tbl_CartStatus" Width="1.5" PointX="5.5" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbMyOnlineShoppingModel.Tbl_Category" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbMyOnlineShoppingModel.Tbl_MemberRole" Width="1.5" PointX="7.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbMyOnlineShoppingModel.Tbl_Members" Width="1.5" PointX="0.5" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbMyOnlineShoppingModel.Tbl_Roles" Width="1.5" PointX="7.5" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbMyOnlineShoppingModel.Tbl_ShippingDetails" Width="1.5" PointX="2.875" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbMyOnlineShoppingModel.Tbl_SlideImage" Width="1.5" PointX="5.5" PointY="4.875" IsExpanded="true" />
+        <AssociationConnector Association="dbMyOnlineShoppingModel.FK__Tbl_Shipp__Membe__1CF15040" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="dbMyOnlineShoppingModel.Tbl_product" Width="1.5" PointX="2.875" PointY="0.5" />
+        <AssociationConnector Association="dbMyOnlineShoppingModel.FK__Tbl_Cart__Produc__24927208" />
+        <AssociationConnector Association="dbMyOnlineShoppingModel.FK__Tbl_produ__Categ__145C0A3F" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

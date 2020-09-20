@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MvcPagedList.Core</name>
+    </assembly>
+    <members>
+        <member name="T:MvcPagedList.Core.PagedList">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MvcPagedList.Core.PagedList.Pager(System.String,System.Object,System.Object,MvcPagedList.Core.PagerOptions,System.String,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MvcPagedList.Core.PagedList.InitialTags(MvcPagedList.Core.PagerOptions)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MvcPagedList.Core.PagedList.InitialPager(MvcPagedList.Core.PagerOptions)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MvcPagedList.Core.PagedList.GenerateNextBtn(System.String,System.String,System.String,System.Object,System.Object,MvcPagedList.Core.PagerOptions)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MvcPagedList.Core.PagedList.GeneratePageNumbers(System.String,System.String,System.String,System.Object,System.Object,MvcPagedList.Core.PagerOptions)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MvcPagedList.Core.PagedList.GeneratePrevBtn(System.String,System.String,System.String,System.Object,System.Object,MvcPagedList.Core.PagerOptions)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MvcPagedList.Core.PagedList.GenerateInfoArea(MvcPagedList.Core.PagerOptions)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MvcPagedList.Core.PagedList.MergeUrlAttribute(Microsoft.AspNetCore.Mvc.Rendering.TagBuilder,System.String,System.String,System.String,System.Object,System.Int32)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MvcPagedList.Core.PagedList.MergeAjaxAttribute(Microsoft.AspNetCore.Mvc.Rendering.TagBuilder,System.Object)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:MvcPagedList.Core.PagerOptions.GetStyleSheetFileFromCdn">
+            <summary>
+            if you dont want to load MvcPagedList.Core.css from cdn you must set this prop to false and link it directly in to your project layout 
+            </summary>
+        </member>
+        <member name="P:MvcPagedList.Core.PagerOptions.DisplayPageNumbers">
+            <summary>
+            if you dont want to show page numbers just set DisplayPageNumbers to false
+            </summary>
+        </member>
+    </members>
+</doc>
