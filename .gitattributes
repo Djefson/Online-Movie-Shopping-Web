@@ -1,4 +1,4 @@
 *.java linguist-detectable=false
 *.js linguist-detectable=false
 *.html linguist-detectable=false
-*.ASP.NET linguist-detectable=true
+*.MVC linguist-detectable=true
